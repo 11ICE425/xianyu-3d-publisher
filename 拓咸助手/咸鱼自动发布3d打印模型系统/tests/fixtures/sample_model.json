@@ -1,0 +1,32 @@
+{
+  "source": "makerworld",
+  "collector_version": "0.9.0",
+  "collected_at": "2026-01-01T00:00:00.000Z",
+  "url": "https://makerworld.com.cn/zh/models/1234567-demo-mech-figure",
+  "model_id": "1234567",
+  "profile_id": "7654321",
+  "title": "示例机甲摆件 - 免费 3D 打印模型 - MakerWorld",
+  "description": "免费下载由 Demo 设计的 3D 打印模型文件。这是一个用于自动化测试的示例模型，不包含任何真实作者或 IP。为我助力 支持我的作品！",
+  "published_at": "2026-01-01",
+  "guessed_filament_grams": ["43 g", "1g"],
+  "guessed_print_times": ["1\nH", "4.5 h", "703h", "1440\nh"],
+  "print_configs": ["0.2mm 层高, 2 层墙, 15% 填充"],
+  "license_related_lines": [
+    "许可证",
+    "本作品以Standard Digital File License方式授权。"
+  ],
+  "images": [
+    "https://makerworld.bblmw.cn/makerworld/model/DSN00000001234567/design/aaaa1111.png?x-oss-process=image/resize,w_1200/ignore-error,1",
+    "https://makerworld.bblmw.cn/makerworld/model/DSN00000001234567/design/aaaa1111.png?x-oss-process=image/resize,w_1000/format,webp/ignore-error,1",
+    "https://makerworld.bblmw.cn/makerworld/model/DSN00000001234567/design/aaaa1111.png?x-oss-process=image%2Fresize%2Cw_400%2Fformat%2Cwebp%2Fignore-error%2C1"
+  ],
+  "file_links": [],
+  "visible_text_preview": "示例机甲摆件\nDemo\n关注\n科幻>机甲\n3D 预览\n打印配置\n(1)\n0.2mm 层高, 2 层墙, 15% 填充\n4.5 h\n1\n盘\n下载 3MF\n助力\n10\n2\n发布于 2026-01-01\n描述\n这是一个用于自动化测试的示例模型。\n助力\n测试标签\n机甲\n摆件\n评论 & 评分 (0)\n许可证\n本作品以Standard Digital File License方式授权。\n相关模型\n",
+  "attribute_text_preview": "示例机甲摆件",
+  "overlay_text_preview": "示例机甲摆件\nDemo\n科幻>机甲\n0.2mm 层高, 2 层墙, 15% 填充\n4.5 h\n1\n盘\n43 g\nPLA｜43 g",
+  "notes": {
+    "commercial_authorization": "unverified",
+    "image_usage": "only_use_author_images_if_author_explicitly_authorized",
+    "authorization_note": "测试样例，不含真实作者与授权信息。"
+  }
+}

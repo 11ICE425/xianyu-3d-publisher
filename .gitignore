@@ -1,0 +1,61 @@
+# 仓库刻意不提交的内容（版权 / 体积 / 隐私）
+# 3D 模型文件
+拓咸助手/拓竹3D打印/
+*.stl
+*.3mf
+*.obj
+*.step
+*.stp
+*.gcode
+*.blend
+*.skp
+
+# 采集到的图片、页面截图与页面正文（含第三方作品与作者信息）
+信息储存/
+**/信息储存/
+**/screenshot_visible.png
+**/images/
+**/data/collected/
+**/data/processed/
+
+# 备份与打包产物
+_备份_*/
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地配置与密钥
+*.local.json
+.env
+.env.*
+!/.env.example
+config.local.*
+
+# 临时输出
+_验证输出*/
+_probe_*.html
+
+# 解压出来的发布包目录（只是 zip 的副本）
+咸鱼自动发布3d打印模型系统_v*/
+_stage_zip/
+
+# 临时 GitHub 登录文件（用完删除）
+_gh_login/
+_gh_device.py

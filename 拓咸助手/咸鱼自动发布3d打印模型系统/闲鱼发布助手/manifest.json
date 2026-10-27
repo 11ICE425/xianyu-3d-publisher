@@ -1,0 +1,39 @@
+{
+    "manifest_version":  3,
+    "name":  "闲鱼3D模型发布助手",
+    "description":  "读取3D模型草稿，支持可编辑AI规则，并辅助填写闲鱼发布表单。",
+    "version":  "0.8.0",
+    "permissions":  [
+                        "storage",
+                        "activeTab",
+                        "scripting"
+                    ],
+    "host_permissions":  [
+                             "https://*.goofish.com/*",
+                             "https://*.xianyu.com/*",
+                             "https://api.deepseek.com/*",
+                             "http://127.0.0.1:*/*",
+                             "http://localhost:*/*"
+                         ],
+    "action":  {
+                   "default_title":  "闲鱼3D发布助手"
+               },
+    "background":  {
+                       "service_worker":  "background.js"
+                   },
+    "content_scripts":  [
+                            {
+                                "matches":  [
+                                                "https://*.goofish.com/*",
+                                                "https://*.xianyu.com/*"
+                                            ],
+                                "js":  [
+                                           "content.js"
+                                       ],
+                                "css":  [
+                                            "panel.css"
+                                        ],
+                                "run_at":  "document_idle"
+                            }
+                        ]
+}

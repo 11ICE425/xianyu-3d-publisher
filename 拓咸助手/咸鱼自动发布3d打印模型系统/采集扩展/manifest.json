@@ -1,0 +1,44 @@
+{
+    "manifest_version":  3,
+    "name":  "3D模型一键采集 v0.9.0-10图",
+    "version":  "0.9.0",
+    "description":  "采集 MakerWorld 模型信息（标题/简介/耗材/时长/许可/图片直链），保存 JSON、最多10张去重图片和页面截图。",
+    "permissions":  [
+                        "activeTab",
+                        "scripting",
+                        "tabs",
+                        "downloads"
+                    ],
+    "host_permissions":  [
+                             "https://makerworld.com.cn/*",
+                             "https://makerworld.com/*",
+                             "https://makerworld.bblmw.cn/*"
+                         ],
+    "action":  {
+                   "default_title":  "采集当前3D模型"
+               },
+    "background":  {
+                       "service_worker":  "background.js"
+                   },
+    "content_scripts":  [
+                            {
+                                "matches":  [
+                                                "https://makerworld.com.cn/*",
+                                                "https://makerworld.com/*",
+                                                "https://makerworld.bblmw.cn/*"
+                                            ],
+                                "js":  [
+                                           "content.js"
+                                       ],
+                                "run_at":  "document_idle"
+                            }
+                        ],
+    "commands":  {
+                     "collect-model":  {
+                                           "suggested_key":  {
+                                                                 "default":  "Alt+M"
+                                                             },
+                                           "description":  "采集当前3D模型"
+                                       }
+                 }
+}

@@ -1,0 +1,4 @@
+# Python 依赖（搬运图片 / 本地 AI 服务需要）
+# 安装：python -m pip install -r requirements.txt
+requests>=2.28
+Pillow>=9.0
