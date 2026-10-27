@@ -1,5 +1,10 @@
 # 拓咸助手 · MakerWorld → 闲鱼 3D 打印半自动发布系统
 
+[![ci](https://github.com/11ICE425/xianyu-3d-publisher/actions/workflows/ci.yml/badge.svg)](https://github.com/11ICE425/xianyu-3d-publisher/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> 仓库：<https://github.com/11ICE425/xianyu-3d-publisher>（MIT 开源）
+
 一个**本地运行**的浏览器扩展 + Python 工具链：在 MakerWorld 选好模型后一键采集资料，AI 润色文案，
 再半自动填写闲鱼发布页。**发布动作始终由人工检查后手动点击**，不做全自动发布，也不绕过平台验证。
 
@@ -109,10 +114,9 @@
 ├── .github/workflows/ci.yml             # 自动跑 Node + Python 测试
 ├── .gitignore
 ├── LICENSE
+├── 上传GitHub教程.md                    # 从零上传/更新 GitHub 的完整教程
 └── README.md
-```
-
-> 目录名为什么是 `拓咸助手`？项目早期叫法（拓竹 + 闲鱼），后来沿用下来；
+```> 目录名为什么是 `拓咸助手`？项目早期叫法（拓竹 + 闲鱼），后来沿用下来；
 > 为了不破坏快捷方式、浏览器已加载的扩展路径和文档里的绝对路径，仓库保持原名。
 
 ## 快速开始（Windows）
@@ -214,6 +218,7 @@ GitHub Actions 也会在每次 push 时自动运行同样的测试（见 `.githu
 
 ## 文档
 
+- [**上传 GitHub 教程（从零到推送、认证方式、常见报错）**](上传GitHub教程.md)
 - [使用规范（安装、完整流程、FAQ）](拓咸助手/咸鱼自动发布3d打印模型系统/使用规范.md)
 - [修复说明（两轮代码审查与 Bug 修复记录）](拓咸助手/咸鱼自动发布3d打印模型系统/修复说明.md)
 - [采集扩展说明](3D模型一键采集扩展/README.md)
